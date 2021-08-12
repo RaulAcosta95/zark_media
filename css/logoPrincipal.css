@@ -1,0 +1,24 @@
+
+.logoPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logoPrincipal img{
+    position:relative;
+    top: -80px;
+    z-index: 2;
+    /* border: 1px black solid; */
+    width: 300px;
+    height: 300px;
+    -webkit-box-shadow: 11px 15px 20px 0px rgba(209,209,209,1);
+    -moz-box-shadow: 11px 15px 20px 0px rgba(209,209,209,1);
+    box-shadow: 11px 15px 20px 0px rgba(209,209,209,1);
+}
+@media (min-width:780px) {
+    .logoPrincipal img{
+        top: -30px;
+
+    }
+}

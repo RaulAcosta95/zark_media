@@ -1,0 +1,8 @@
+.carrusel-imagenes-1 img{
+    z-index: 1;
+    /* width: 100vw; */
+        max-height: 80vh;
+}
+.carrusel-imagenes-1 .row>*{
+    padding:0 !important;
+}
