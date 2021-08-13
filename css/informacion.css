@@ -1,0 +1,47 @@
+.información h2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.información h4{
+    color: rgb(231, 247, 246);
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.redes img{
+    width: 100px;
+    transition: 0.5s;
+}
+.redes img:hover{
+    width: 120px;
+    transition: 0.5s;
+}
+@media (max-width:780px) {
+    .redes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .redes h4{
+        width: 100%;
+    }
+    .redes img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .contacto p{
+        text-align: center;
+        
+    }
+}
+@media (min-width:780px) {
+    .secciones{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+
+}

@@ -22,3 +22,10 @@
 
     }
 }
+@media (max-width:380px) {
+    .logoPrincipal img{
+        width: 80vw;
+        height: auto;
+        top: -10px;
+    }
+}

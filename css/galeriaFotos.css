@@ -1,0 +1,88 @@
+
+.galeria-imagenes .titulo,.galeria-imagenes .texto{
+    width: 95vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria-imagenes .nuestros{
+    float: left;
+    font-weight: bold;
+}
+.galeria-imagenes .expertos{
+    margin-left: 5px;
+}
+.texto-tercera-seccion{
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 80vw;
+}
+@media (min-width: 768px){
+    .galeria-imagenes .carrusel-movile{
+        display: none;
+    }
+    .galeria-imagenes .carousel-item img{
+        width: 25%;
+        margin: 10px;
+        transition: 0.5s;
+    }
+
+
+    .galeria-imagenes .carrusel-desktop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .galeria-imagenes .segundo-carousel{
+        width: 90vw;
+    }
+    .galeria-imagenes .carousel-item div{
+        display: flex;
+        justify-content: center;
+    }
+    .galeria-imagenes .carousel-control-prev-icon,.galeria-imagenes .carousel-control-next-icon{
+        background-color: rgb(49, 49, 49);
+    }
+}
+@media (min-width: 0px) and (max-width: 768px){
+    .galeria-imagenes .carrusel-desktop{
+        display: none;
+    }
+    .galeria-imagenes .carrusel-movile{
+        display: block;
+    }
+    .galeria-imagenes .carousel-item img{
+        width: 90vw;
+        margin: 10px;
+    }
+    .galeria-imagenes .carrusel-movile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .galeria-imagenes .segundo-carousel{
+        width: 90vw;
+    }
+    .galeria-imagenes .carousel-item div{
+        display: flex;
+        justify-content: center;
+    }
+    .galeria-imagenes .carousel-control-prev-icon,.galeria-imagenes .carousel-control-next-icon{
+        background-color: rgb(49, 49, 49);
+    }
+}
+@media (min-width: 1024px){
+    .galeria-imagenes .carousel-item img{
+        border-radius: 200px 200px 200px 200px;
+        -moz-border-radius: 200px 200px 200px 200px;
+        -webkit-border-radius: 200px 200px 200px 200px;
+        border: 0px solid #000000;
+    }
+    .galeria-imagenes .carousel-item img:hover{
+        border-radius: 4px 4px 4px 4px;
+        -moz-border-radius: 4px 4px 4px 4px;
+        -webkit-border-radius: 4px 4px 4px 4px;
+        border: 0px solid #000000;
+    }
+}

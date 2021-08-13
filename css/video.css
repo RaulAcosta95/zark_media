@@ -1,9 +1,10 @@
 .contenedor-caja-video{
     display: flex;
     justify-content: center;
+    height: 400px;
 }
 
 .contenedor-caja-video .caja-video iframe{
-    height: 200%;
+    height: 100%;
     width: 70vw;
 }
